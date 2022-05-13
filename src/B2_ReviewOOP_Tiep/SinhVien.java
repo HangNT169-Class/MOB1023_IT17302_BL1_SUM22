@@ -23,7 +23,7 @@ public class SinhVien extends Nguoi {
     }
 
     @Override
-    public void display() {
+    public void display(String ten1) {
         System.out.println("Sinh vien");
     }
 }

@@ -8,17 +8,11 @@ package B2_ReviewOOP_Tiep;
  *
  * @author hangnt
  */
-public class ThucVat {
-
-    public String display() {
-        return "ThucVat";
+public class Main {
+    public static void main(String[] args) {
+//        Nguoi nguoi = new Nguoi();
+//        nguoi.display();
+//        Nguoi nguoi2 = new SinhVien();
+//        nguoi2.display();
     }
-
-    public String display(String name) {
-        return "ThucVat1";
-    }
-    
-//    public void display(String ten){
-//        System.out.println("Thuc vat");
-//    }
 }

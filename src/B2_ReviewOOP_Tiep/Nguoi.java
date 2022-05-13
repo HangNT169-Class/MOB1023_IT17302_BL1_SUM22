@@ -26,7 +26,7 @@ public class Nguoi {
 
     // setter
     // display
-    public void display() {
+    public void display(String s) {
         System.out.println("Nguoi");
     }
 }
