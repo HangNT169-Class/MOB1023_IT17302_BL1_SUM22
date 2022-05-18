@@ -5,6 +5,7 @@
 package B3_OverviewSwing;
 
 import javax.swing.JOptionPane;
+import javax.swing.table.TableModel;
 
 /**
  *
@@ -105,6 +106,11 @@ public class HelloFrame extends javax.swing.JFrame {
                 "Tên", "Loại", "Giới tính", "Sở thích"
             }
         ));
+        jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTable1MouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -210,6 +216,15 @@ public class HelloFrame extends javax.swing.JFrame {
         String result = name + " - " + loai + " - " + gender + " - " + soThich;
         JOptionPane.showMessageDialog(rootPane, result);
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+        // click 
+        // cach lay data cua 1 row
+        int row = jTable1.getSelectedRow(); // lay ra dong selected
+        TableModel tableModel = jTable1.getModel();
+        String ten = tableModel.getValueAt(row, 0).toString();// lay ra dong va row select
+        JOptionPane.showMessageDialog(rootPane, ten);
+    }//GEN-LAST:event_jTable1MouseClicked
 
     /**
      * @param args the command line arguments
