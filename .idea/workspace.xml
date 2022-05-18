@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548c8e21-7883-40fb-8897-c50ea5c24365" name="Changes" comment="Init project" />
+    <list default="true" id="548c8e21-7883-40fb-8897-c50ea5c24365" name="Changes" comment="Buoi1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +47,11 @@
       <updated>1651681657969</updated>
       <workItem from="1651681659724" duration="72000" />
       <workItem from="1651681904978" duration="162000" />
+      <workItem from="1652060566680" duration="77000" />
+      <workItem from="1652407426859" duration="19000" />
+      <workItem from="1652412369428" duration="19000" />
+      <workItem from="1652667396397" duration="10000" />
+      <workItem from="1652833869135" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1651682061058</created>
@@ -52,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651682061058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Buoi1">
+      <created>1652060637194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652060637194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init project" />
+    <MESSAGE value="Buoi1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buoi1" />
   </component>
 </project>

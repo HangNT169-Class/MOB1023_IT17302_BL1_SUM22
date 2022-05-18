@@ -2,8 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package B3_OverviewSwing;
+package B5_OverviewList;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.TableModel;
 
@@ -11,19 +13,24 @@ import javax.swing.table.TableModel;
  *
  * @author hangnt
  */
-public class HelloFrame extends javax.swing.JFrame {
+public class HelloBuoi5Frame extends javax.swing.JFrame {
 
     /**
      * Creates new form HelloFrame
      */
-    public HelloFrame() {
+    // Load data dong:
+    // combobox: DefaultComboboxModal
+    // table: DefaultTableModal
+    private List<NhanVien> listNhanViens;
+
+    public HelloBuoi5Frame() {
         initComponents();
         // code
-        /**
-         * Khi click vao button Add sẽ hiẻn thị thông báo ra thông tin Sinh Viên
-         * vừa nhập Khi ấn vào button Close => Chương trình sẽ dừng Khi ấn vào
-         * button Clear => CHương trình sẽ quay lại trạng thái ban đầu
-         */
+        listNhanViens = new ArrayList<>(); // Khoi tao 1 list
+        // add data cho list de view len table
+        listNhanViens.add(new NhanVien("h1", "Loai1", true, "Ăn"));
+        listNhanViens.add(new NhanVien("h2", "Loai2", false, "Ăn Lăn"));
+        listNhanViens.add(new NhanVien("h3", "Loai4", true, "Ăn"));
     }
 
     /**
@@ -248,20 +255,21 @@ public class HelloFrame extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(HelloFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HelloBuoi5Frame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(HelloFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HelloBuoi5Frame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(HelloFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HelloBuoi5Frame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(HelloFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(HelloBuoi5Frame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new HelloFrame().setVisible(true);
+                new HelloBuoi5Frame().setVisible(true);
             }
         });
     }
