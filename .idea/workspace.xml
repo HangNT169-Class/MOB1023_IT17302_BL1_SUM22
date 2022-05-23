@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="548c8e21-7883-40fb-8897-c50ea5c24365" name="Changes" comment="Buoi1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
       <workItem from="1652412369428" duration="19000" />
       <workItem from="1652667396397" duration="10000" />
       <workItem from="1652833869135" duration="8000" />
+      <workItem from="1652840122280" duration="8000" />
+      <workItem from="1653012917477" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1651682061058</created>
