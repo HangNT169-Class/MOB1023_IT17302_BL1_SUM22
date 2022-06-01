@@ -28,18 +28,18 @@ public class Main {
      * vao file. Xuat file ra
      */
     public static void main(String[] args) {
-
-        //        try {
-//            // Goi ham doc file
-//            new Main().ghiFileObjectOutputStream();
-//        } catch (IOException ex) {
+//
+//        //        try {
+////            // Goi ham doc file
+////            new Main().ghiFileObjectOutputStream();
+////        } catch (IOException ex) {
+////            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+////        }
+//        try {
+//            new Main().docGileObjectInputStream();
+//        } catch (Exception ex) {
 //            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-        try {
-            new Main().docGileObjectInputStream();
-        } catch (Exception ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        } 
+//        } 
     }
 
     // ghiFile
@@ -117,4 +117,5 @@ public class Main {
         ois.close();
         fis.close();
     }
+   
 }
