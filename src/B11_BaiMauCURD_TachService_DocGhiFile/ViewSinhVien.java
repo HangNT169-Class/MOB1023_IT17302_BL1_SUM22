@@ -35,15 +35,15 @@ public class ViewSinhVien extends javax.swing.JFrame {
         // Custom header
         String[] headers = {"MaSV", "Ten", "Tuoi", "GioiTinh", "DiaChi"};
         dtm.setColumnIdentifiers(headers);
-//
-//        // load 5 data
-//        loadDataMacDinh();
-//
-//        // goi de load vao table
-//        showDataTable(listSinhViens);
-//
-//        // fill phan tu cuoi cung
-//        fillData(listSinhViens.size() - 1);
+
+        // load 5 data
+        loadDataMacDinh();
+
+        // goi de load vao table
+        showDataTable(listSinhViens);
+
+        // fill phan tu cuoi cung
+        fillData(listSinhViens.size() - 1);
     }
 
     /**
@@ -416,6 +416,7 @@ public class ViewSinhVien extends javax.swing.JFrame {
     }//GEN-LAST:event_btnXapXepActionPerformed
 
     private void btnDocFileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDocFileActionPerformed
+        listSinhViens.clear();
         JOptionPane.showMessageDialog(this, docGhiFile.docFile(path, listSinhViens));
         showDataTable(listSinhViens);
     }//GEN-LAST:event_btnDocFileActionPerformed
